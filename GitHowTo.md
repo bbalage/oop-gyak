@@ -1,6 +1,8 @@
 # Git segédlet
 
-Ez egy kis segítség / összefoglaló azoknak, akik nem tudják fejből a Git parancsokat. Az elejére felírom a parancsokat minimális magyarázattal, a végére pedig hosszabb magyarázatot írok.
+Ez egy kis segítség / összefoglaló azoknak, akik nem tudják fejből a Git parancsokat. Az elejére felírom a parancsokat minimális magyarázattal, a végére pedig általánosabb információkat írok.
+
+Ez a leírás egy kis összefoglaló! Aki többet szeretne, annak figyelmébe ajánlom [ennek a jól felépített könyvnek](https://git-scm.com/book/en/v2) az első 3 fejezetét!
 
 ## Alap parancsok
 
@@ -48,3 +50,37 @@ Ha egy meglévő offline repo-ba le akarjuk szedni a frissítéseket, amiket má
 ```
 git pull
 ```
+
+## Magyarázatok
+
+(Rövidek; aki hosszút akar, olvassa a könyvet.)
+
+A git egy elosztott verziókövető eszköz.
+
+**Hogyan követ verziót?**
+
+- Amit commitolsz, az egy elmentett verzió lesz.
+- Egy commitra később vissza lehet térni.
+- A commitok az alapegységek.
+
+**Miért jó ez?**
+
+- Ha valamit egyszer commitolsz, akkor az úgymond biztonságban van.
+- Egy commit után nyugodtan módosítgathatsz, mert később bármikor visszamehetsz az előző jó verzióra.
+
+**Mi az, hogy elosztott?**
+
+- A repository több helyen lehet: van lokális és szerveren lévő repo is.
+- A kettő egymástól függetlenül is **tartalmaz mindent**.
+- Nincs automatikus szinkronizáció a szerver (esetünkben Github) és a lokális repo (amin dolgozol a gépen) között.
+
+**Miért jó ez?**
+
+- Mert minden lokális repo egy biztonsági mentés is; minden megvan benne, ami kell.
+- Mert a lokális repohoz nem kell a szervernek is működnie, hogy tudjon funkcionálni.
+
+### Néhány következménye a fönt leírtaknak
+
+- Mivel a git a commitokat fogja eltárolni, ha egy verziót el akarunk menteni, akkor commitolnunk kell.
+- A kódunkat commitokban tudjuk feltölteni a repoba.
+- Mivel elosztott, manuálisan kell feltöltenünk és letöltenünk a verziónkat.
