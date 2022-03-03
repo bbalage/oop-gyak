@@ -7,6 +7,7 @@ public class Quiz3 {
 		for (String word: words) {
 			System.out.println(word);
 		}
+		System.out.println(words);
 	}
 
 }

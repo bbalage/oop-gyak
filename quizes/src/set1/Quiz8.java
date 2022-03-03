@@ -8,10 +8,10 @@ public class Quiz8 {
 		printMatrix(matrix);
 		
 		System.out.println();
-		System.out.println(matrix[0][1]);
+		// System.out.println(matrix[0][1]);
 		// System.out.println(matrix[3][1]);
 		// System.out.println(matrix[2][1]);
-		// System.out.println(matrix[2][2]);
+		System.out.println(matrix[2][2]);
 	}
 	
 	// Why don't we need the size of the array in the parameter list?

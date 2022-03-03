@@ -13,11 +13,13 @@ public class Quiz10 {
 		System.out.println("floor(0.6) = " + Math.floor(0.6));
 		
 		System.out.println("round(0.4) = " + Math.round(0.4));
-		System.out.println("round(0.4) = " + Math.round(0.5));
-		System.out.println("round(0.4) = " + Math.round(0.6));
+		System.out.println("round(0.5) = " + Math.round(0.5));
+		System.out.println("round(0.6) = " + Math.round(0.6));
 		
 		System.out.println("min(12, 14) = " + Math.min(12, 14));
 		System.out.println("max(12, 14) = " + Math.max(12, 14));
+		String s = "bbalage0@gmail.com";
+		System.out.println(s.indexOf('@'));
 	}
 
 }

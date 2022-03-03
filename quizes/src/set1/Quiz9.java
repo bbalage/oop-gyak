@@ -19,7 +19,7 @@ public class Quiz9 {
 		// System.out.println(matrix[0][1]);
 		// System.out.println(matrix[3][1]);
 		// System.out.println(matrix[4][4]);
-		// System.out.println(matrix[5][5]);
+		System.out.println(matrix[5][5]);
 	}
 	
 	static void printMatrix(String[][] matrix) {

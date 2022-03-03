@@ -51,9 +51,7 @@ public class Task1 {
 	}
 	
 	static void printArray(double[] nums) {
-		for (double num : nums) {
-			num += 1;
-		}
+		
 		for (double num : nums) {
 			System.out.println(num);
 		}

@@ -4,7 +4,7 @@ public class Quiz7 {
 
 	public static void main(String[] args) {
 		// What if I change the size of the matrix here? Would the code work?
-		int[][] matrix = new int[3][3];
+		int[][] matrix = new int[3][4];
 		setFromStart(matrix, 1, 1);
 		printMatrix(matrix);
 	}

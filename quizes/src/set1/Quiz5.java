@@ -9,7 +9,7 @@ public class Quiz5 {
 	public static void main(String[] args) {
 		String input = sc.nextLine();
 		String copy = "hello";
-		if (input == copy) {
+		if (input.equals(copy)) {
 			System.out.println("equal");
 		} else {
 			System.out.println("not equal");
