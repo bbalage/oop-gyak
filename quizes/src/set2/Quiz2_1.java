@@ -1,17 +1,16 @@
 package set2;
 
 public class Quiz2_1 {
-
+	
 	public static void main(String[] args) {
-		Point point = new Point();
-		point.x = 10;
-		point.y = point.x + 3;
-		System.out.println("x: " + point.x + "; y: " + point.y);
+		Vec2_1 vec = new Vec2_1();
+		vec.x = 10;
+		vec.y = 12;
+		System.out.println(vec);
 	}
-
 }
 
-class Point {
-	int x;
-	int y;
+class Vec2_1 {
+	private int x;
+	private int y;
 }
